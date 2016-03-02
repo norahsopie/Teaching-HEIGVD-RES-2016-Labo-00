@@ -7,7 +7,7 @@ public class Flute implements IInstrument {
    private String color;
    
    public String play(){
-      return "wiii";
+      return "trilili";
    }
    
    
