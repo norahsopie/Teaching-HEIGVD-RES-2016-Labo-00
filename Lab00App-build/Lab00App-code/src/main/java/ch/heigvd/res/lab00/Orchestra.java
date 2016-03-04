@@ -5,16 +5,14 @@ import java.util.LinkedList;
 
 public class Orchestra {
 
-   private int numberOfInstruments = 0;
    private LinkedList<IInstrument> setOfInstruments = new LinkedList<IInstrument>();
 
    public int getNumberOfInstruments() {
-      return numberOfInstruments;
+      return setOfInstruments.size();
    }
 
    public void addInstrument(IInstrument instrument) {
       setOfInstruments.add(instrument);
-      numberOfInstruments = setOfInstruments.size();
    }
 
    public LinkedList<String> makeMusic() {
