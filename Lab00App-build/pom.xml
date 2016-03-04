@@ -9,7 +9,6 @@
 		<module>Lab00App-code</module>
         <module>Lab00App-tests</module>
     </modules>
-    <modules></modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
